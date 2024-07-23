@@ -52,4 +52,4 @@ const pizza = prompt('And your pizza is ... (pepperoni, mozzarela, aceituna): ')
 if (pizza === 'pepperoni' || pizza === 'mozzarela' || pizza === 'aceituna') {
     prepMasa(pizza)
 } else
-    console.log("Sorry not Pizza");
+    console.log("Lo siento esa pizza no existe.");
